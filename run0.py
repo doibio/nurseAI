@@ -1,6 +1,6 @@
 import vertexai
-from flask import Flask
 from vertexai.language_models import TextGenerationModel
+from flask import Flask
 
 vertexai.init(project="amiable-elf-396321", location="us-central1")
 parameters = {
